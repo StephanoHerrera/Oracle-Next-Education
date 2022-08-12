@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Inter-Regular;
+    src: url(fonts/Inter-Regular.woff);
+}
+#logos{
+    width: 150px;
+    /* float:inline-start; */
+    position: relative;
+    top: -30px; 
+    margin-bottom: -30px;
+    border-radius: 12px;
+}
+#body{
+    background-color: #D8DFE8;
+    font-family: Inter-Regular;
+}
+.iputForm{
+    color: darkblue;
+    display:inline-block;
+    width: 47%;
+    height: 92%;
+    padding-left: 15%;
+    position: static;
+    vertical-align: top;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.inputTexto{
+    color: darkblue;
+    font-size: 32px;
+    background-color: transparent;
+    border-style: hidden;
+    outline: none;
+    width: 84%;
+    /* padding-left: 35%; */
+    text-align: center;
+    resize: none;
+
+}
+.botones{
+    background-color: #D8DFE8;
+    color: darkblue;
+    border: 1px solid darkblue;
+    transition-duration: 0.2s;
+
+}
+.botones:hover {
+background-color: darkblue;
+color: white;
+}
+.botonesInput{
+    width: 48%;
+    margin-left: 1%;
+    padding: .7% 1%;
+    border-radius: 9px;
+    font-size: 16px;
+    overflow: hidden;
+    
+}
+.importante{
+    color:#67808E;
+}
+.outputForm{
+    background-color: aliceblue;
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+    float:inline-end;
+    margin: 2.7%;
+    border-radius: 15px;
+    vertical-align: top;
+    text-align: center;
+}
+
+h3 {
+    overflow-wrap: break-word;
+}
+.outputTexto{
+    color: darkblue;
+    font-size: 32px;
+    background-color: transparent;
+    border-style: hidden;
+    outline: none;
+    font-family: Inter-Regular;
+    width: 300px;
+    resize: none;
+    text-align: center;
+
+    /* padding-left: 35%; */
+ 
+}
+
+.botonesOutput{
+    width: 300px;
+    padding: 3% 2%;
+    font-family: Inter-Regular;
+    border-radius: 9px;
+    margin-top: 20%;
+
+
+}
+#botonCopiar{
+    visibility:hidden;    
+
+}

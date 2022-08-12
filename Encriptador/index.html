@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body id="body">
+    <header>
+    <h1>Encriptador de texto</h1>
+    </header>
+    <div class="iputForm">
+
+        <textarea name="" id="inputA" cols="30" rows="10"class="inputTexto" autofocus placeholder="Ingresa el texto aqui"></textarea>
+
+        <p class="importante">
+            
+            <img src="images/28-info-solidback2.gif" alt="info gif" width="20px">
+            Sólo letras minúsculas y sin acentos</p>
+
+        <button onclick="scrambler()"  class="botones botonesInput">Encriptar</button>
+        <button onclick="desEncrypt()" class="botones botonesInput">Desencriptar</button>
+    </div>
+
+    <div class="outputForm">
+        <h3 class="resTextHTML" id="resultado"> </h3>
+        <img src="images/pinpng.com-search-icon-png-544943.png" alt="lupa sobre documento" width="80px" id="imagen1">
+        <img src="images/42-search-solid.gif" alt="lupa" style="width: 100px;" id="imagen2">
+        <h3 id="paraBorrar">Ningún mensaje encontrado</h3>
+        <button onclick="copiar()" class="botones botonesOutput" id="botonCopiar">Copiar</button> 
+        <textarea name="" id="areaDeTexto" cols="30" rows="10" placeholder="Ingresa un mensaje y encripta o desencripta" class="outputTexto"></textarea>
+        <!-- TODA imagen antes que el texto -->
+
+    </div>
+    
+</body>
+</html>
